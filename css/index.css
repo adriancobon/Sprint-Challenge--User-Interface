@@ -144,3 +144,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+    display: inline-flex;
+    width: 880px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    margin: 35px 31px 0 31px;
+    font-size: 14px;
+    margin-right: 60px;
+  }
+  
+  nav a:hover {
+    color: rgb(176, 177, 178);
+  }
+  
+  nav a:first-child {
+    margin-left: 100;
+  }
+  
+  nav div {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+  
+  .static-navbar img {
+      margin-left: 390px;
+  }
