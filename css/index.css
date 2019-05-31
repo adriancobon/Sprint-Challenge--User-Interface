@@ -217,3 +217,7 @@ nav {
   .dodgerblue {
       background: dodgerblue;
   }
+
+  .abouttoptext {
+   border-bottom: 1px dotted black;   
+  }
