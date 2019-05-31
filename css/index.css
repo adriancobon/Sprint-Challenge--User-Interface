@@ -146,7 +146,7 @@ footer nav a {
 }
 
 nav {
-    display: inline-flex;
+    display: inline-block;
     width: 880px;
     height: 100px;
     margin: 0 auto;
@@ -170,12 +170,16 @@ nav {
   
   nav div {
     display: inline-block;
-    position: absolute;
-    right: 0;
+    width: 75%
+    padding: 5px;
   }
   
   .static-navbar img {
-      margin-left: 390px;
+      display: inline-block;
+      width: 20%;
+      height: 40px;
+      width: 157px;
+      margin-left: 350px;
   }
 
   .teal {
@@ -242,6 +246,6 @@ nav {
       display: flex-wrap;
       flex-direction: column;
       border-bottom: 1px dotted black;
-      margin: 10px;
+      margin-right: 10px;
       max-width: 45%;
   }
