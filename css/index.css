@@ -221,3 +221,27 @@ nav {
   .abouttoptext {
    border-bottom: 1px dotted black;   
   }
+
+  button {
+      border-radius: 10px;
+      background-color: white;
+      text-align: center;
+      padding: 5px 15px;
+  }
+
+  .aboutrow {
+      display: flex;
+      flex-direction: row;
+      width: 880px;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .aboutbox {
+      display: flex-wrap;
+      flex-direction: column;
+      border-bottom: 1px dotted black;
+      margin: 10px;
+      max-width: 45%;
+  }
