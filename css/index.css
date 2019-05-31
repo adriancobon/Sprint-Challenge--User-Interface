@@ -145,42 +145,22 @@ footer nav a {
     text-decoration: none;
 }
 
-nav {
-    display: inline-block;
-    width: 880px;
-    height: 100px;
-    margin: 0 auto;
-  }
-  
-  nav a {
-    text-decoration: none;
+.static-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0 40px 0;
+    margin-left: 240px;
+}
+
+.static-navbar a {
     color: black;
-    margin: 35px 31px 0 31px;
-    font-size: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
     margin-right: 60px;
-  }
-  
-  nav a:hover {
-    color: rgb(176, 177, 178);
-  }
-  
-  nav a:first-child {
-    margin-left: 100;
-  }
-  
-  nav div {
-    display: inline-block;
-    width: 75%
-    padding: 5px;
-  }
-  
-  .static-navbar img {
-      display: inline-block;
-      width: 20%;
-      height: 40px;
-      width: 157px;
-      margin-left: 350px;
-  }
+}
+
 
   .teal {
       background: teal;
