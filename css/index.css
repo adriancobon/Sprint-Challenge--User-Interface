@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +144,88 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.static-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0 40px 0;
+    margin-left: 240px;
+}
+
+.static-navbar a {
+    color: black;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+
+  .teal {
+      background: teal;
+  }
+
+  .gold {
+      background: gold;
+  }
+
+  .cadetblue {
+      background: cadetblue;
+  }
+
+  .coral {
+      background: coral;
+  }
+
+  .crimson {
+      background: crimson;
+  }
+
+  .forestgreen {
+      background: forestgreen;
+  }
+
+  .darkorchid {
+      background: darkorchid;
+  }
+
+  .hotpink {
+      background: hotpink; 
+  }
+
+  .indigo {
+      background: indigo;
+  }
+
+  .dodgerblue {
+      background: dodgerblue;
+  }
+
+  .abouttoptext {
+   border-bottom: 1px dotted black;   
+  }
+
+  button {
+      border-radius: 10px;
+      background-color: white;
+      text-align: center;
+      padding: 5px 15px;
+  }
+
+  .aboutrow {
+      display: flex;
+      flex-direction: row;
+      width: 880px;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .aboutbox {
+      display: flex-wrap;
+      flex-direction: column;
+      border-bottom: 1px dotted black;
+      margin-right: 10px;
+      max-width: 45%;
+  }
